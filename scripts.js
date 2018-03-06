@@ -1,20 +1,20 @@
 $(document).ready(function(){
-    $(".music-nav").hover(function(){
-        $(".music").show();
+    $(".links-nav").hover(function(){
+        $(".links").show();
         
     }, function(){
-        $(".music").hide();
+        $(".links").hide();
         
     });
     
     
 });
 $(document).ready(function(){
-    $(".store-nav").hover(function(){
-        $(".store").show();
+    $(".contact-nav").hover(function(){
+        $(".contact").show();
         
     }, function(){
-        $(".store").hide();
+        $(".contact").hide();
         
     });
     
@@ -32,6 +32,17 @@ $(document).ready(function(){
     
 });
 
+$(document).ready(function(){
+    $(".info-nav").hover(function(){
+        $(".info").show();
+        
+    }, function(){
+        $(".info").hide();
+        
+    });
+    
+    
+});
 
 
 

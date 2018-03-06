@@ -1,5 +1,5 @@
 body {
-  background-color: slategray;
+  background-color: hotpink;
   color: white;
   font-family: cursive; }
 
@@ -40,7 +40,8 @@ header {
   background-position: center center; }
 
 .contact {
-  background-image: url(images/booboo%20cover.jpg); }
+    background-image:url(images/blunt.JPG)
+}
 
 .visuals {
   background-image: url(images/elijah.JPG); }
@@ -104,7 +105,7 @@ h1 { font-family: 'Roboto', sans-serif;
     text-align: center;
     
 }
-body {background-color: black}
+
 
 
 img {
@@ -127,6 +128,7 @@ p { font-family: 'Roboto', sans-serif;
 h2{
     color:pink;
     text-align: center;
+    font-family: monospace;
     
 }
 
@@ -148,6 +150,8 @@ h2{
 .link3{ 
     font-size: 40px;
 }
+
+
 
 
 /*# sourceMappingURL=main.css.map */
