@@ -1,7 +1,7 @@
 body{ 
-    background-color: slategray;
+    background-color: hotpink;
     color:white;
-    font-family: cursive;
+    font-family: monospace;
 }
 
 header{
@@ -51,7 +51,7 @@ header{
 }
      
 .contact{
-   background-image: url(images/booboo%20cover.jpg)
+   background-image: url(images/blunt.JPG);
 }
  
 
@@ -61,16 +61,16 @@ header{
 }
 
 .links{
-    background-image: url(images/cig.JPG)
+    background-image: url(images/cig.JPG);
 }
 
 .info{
-    background-image: url(images/sup.JPG)
+    background-image: url(images/sup.JPG);
 
 }
 
 .home{
-    background-image: url(images/wanke.JPG)
+    background-image: url(images/wanke.JPG);
     
 }
 
@@ -86,6 +86,87 @@ header{
         display: block;
     }
     
+}
+
+.nav{ 
+text-align: center;
+position: fixed ;
+bottom: 30px;
+left:100px;
+right:100px;
+background-color: pink;
+   
+}
+ 
+
+.nav > td >a >button { color: yellow;
+    font-weight: 700%;
+} 
+
+
+.nav > td > a :hover {
+    color: black;
+}
+
+
+
+.blunt{ width: 80%}
+.cig{width: 70%}
+.booboo{width: 80%}
+.wanke{width: 70%}
+.elijah{width: 80%}
+
+.contactpage{
+    margin-top: 50%;
+    bottom:50%;
+    background: red;
+    margin-bottom: 50%;
+    
+}
+
+h1 { font-family: 'Roboto', sans-serif;
+    color: yellow;
+    margin:60px ;
+    text-align: center;
+    
+}
+
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: gold; 
+    width:  80%;
+}
+
+
+
+p { font-family: 'Roboto', sans-serif;
+    color: yellow;
+    text-align: center;
+    text-emphasis: yellow;
+    font-size: 30px;
+}
+
+h2{
+    color:pink;
+    text-align: center;
+    
+}
+
+
+.link1{
+    color:pink;
+    font-size: 40px;
+    
+}
+.link2{
+    font-size: 30px;
+}
+
+.link3{ 
+    font-size: 40px;
 }
 
 
