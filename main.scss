@@ -1,0 +1,91 @@
+body{ 
+    background-color: slategray;
+    color:white;
+    font-family: cursive;
+}
+
+header{
+    text-transform: uppercase;
+    padding: 40px;
+    h1{
+        cursor: pointer;
+        float: left;
+        font-size: 14px; 
+        margin: 0;
+        transition: .3s all;
+    }
+    ul{
+        font-size: 14px;
+        list-style: none;
+        padding: 0;
+        float:right;
+        margin: 0;
+        li{
+            cursor: pointer;
+            display: inline-block;
+            margin-left: 20px;
+            transition: .3s all;
+        }
+    }
+    h1:hover, li:hover{
+        transform: translateY(-5px);
+        transition: .3s all;
+        cursor: pointer;
+    }
+   
+}
+
+.animation{
+    z-index: -1;
+    display: none;
+    
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100vw;
+    height: 100vh;
+    
+   
+    background-size: cover;
+    background-position: center center;
+}
+     
+.contact{
+    background-image: url(images/booboo%20cover.jpg);
+}
+ 
+
+.visuals{
+    background-image: url(images/elijah.JPG);
+
+}
+
+.links{
+    background-image: url(images/cig.JPG)
+}
+
+.info{
+    background-image: url(images/sup.JPG)
+
+}
+
+.home{
+    background-image: url(images/wanke.JPG)
+    
+}
+
+.info-box{
+    
+    button{
+        
+    }
+    p{
+        display: none;
+    }
+    p.visible{
+        display: block;
+    }
+    
+}
+
+
